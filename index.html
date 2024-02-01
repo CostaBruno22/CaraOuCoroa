@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Jogo - Cara ou Coroa</title>
+</head>
+
+<body>
+
+    <audio id="backgroundAudio" autoplay loop>
+        <source src="/assets/audio/slow-motion-121841.mp3" type="audio/mpeg">
+        <source src="/assets/audio/slow-motion-121841.ogg" type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <div class="container">
+        <div class="title">
+            <div class="logo">
+                <img src="/assets/image/BrcLogo.png" alt="Logo">
+            </div>
+            <div class="titulo">
+                <span>Jogo - Cara ou Coroa</span>
+            </div>
+        </div>
+        <div class="stats">
+            <p class="heads-counts">Caras: 0</p>
+            <p class="tails-counts">Coroas: 0</p>
+        </div>
+        <div id="coin" class="coin">
+            <div class="heads">
+                <img src="/assets/image/heads.svg" alt="Cara">
+            </div>
+            <div class="tails">
+                <img src="/assets/image/tails.svg" alt="Coroa">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="flip-button">
+                Lançar Moeda
+            </button>
+            <button id="reset-button">
+                Reiniciar Contagem
+            </button>
+        </div>
+
+    </div>
+
+
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
